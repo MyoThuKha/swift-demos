@@ -15,8 +15,6 @@ class NetworkManager {
     
     private let cache = NSCache<NSString,UIImage>()
     
-    
-    
     /// Download an image from network
     /// - Parameters:
     ///   - imageUrl: string url of a network image
@@ -57,12 +55,14 @@ class NetworkManager {
             }
             
             // check the data
-            guard let data = data else{
+            guard let data = data, let image = UIImage(data: data) else{
                 completed(nil)
                 return
             }
             
-            completed(UIImage(data: data))
+//            save to the cache
+            self.cache.setObject(image, forKey: cacheKey)
+            completed(image)
             
         }
         

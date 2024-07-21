@@ -10,12 +10,13 @@ import SwiftUI
 // this view fetch image download and pass it.
 struct NetworkImage: View {
     var imageUrl :String
+    var placeHolder : Image?
     
     var viewModel = NetworkImageViewModel()
     
     var body: some View {
         VStack{
-            DefaultImageView(image: viewModel.image)
+            DefaultImageView(image: viewModel.image,placeholder: placeHolder)
                 .onAppear{
                     viewModel.getImage(fromUrl: imageUrl)
                 }
@@ -29,11 +30,17 @@ struct NetworkImage: View {
 struct DefaultImageView: View {
     
     var image: Image?
+    var placeholder: Image?
     
     var body: some View {
         //  image?.resizable() ?? Image("rainbow").resizable()
-        image?.resizable() ??
-        Image(systemName: "rainbow").resizable()
+        
+        if let image = image?.resizable() {
+            image
+        }else{
+            placeholder ?? Image(systemName: "rainbow").resizable()
+        }
+        
     }
 }
 
