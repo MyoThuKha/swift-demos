@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C307AE22C4CE6D6005E77FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307AE12C4CE6D6005E77FA /* NetworkManager.swift */; };
+		5C307AE42C4CEDDB005E77FA /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307AE32C4CEDDB005E77FA /* NetworkImage.swift */; };
+		5C307AE62C4CF35A005E77FA /* NetworkImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307AE52C4CF35A005E77FA /* NetworkImageViewModel.swift */; };
 		5CF118302C4CC6A100DD324C /* swift_demosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF1182F2C4CC6A100DD324C /* swift_demosApp.swift */; };
 		5CF118322C4CC6A100DD324C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF118312C4CC6A100DD324C /* ContentView.swift */; };
 		5CF118342C4CC6A200DD324C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF118332C4CC6A200DD324C /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C307AE12C4CE6D6005E77FA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5C307AE32C4CEDDB005E77FA /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		5C307AE52C4CF35A005E77FA /* NetworkImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageViewModel.swift; sourceTree = "<group>"; };
 		5CF1182C2C4CC6A100DD324C /* swift-demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF1182F2C4CC6A100DD324C /* swift_demosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_demosApp.swift; sourceTree = "<group>"; };
 		5CF118312C4CC6A100DD324C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C307AE02C4CE46F005E77FA /* NetworkImage */ = {
+			isa = PBXGroup;
+			children = (
+				5C307AE32C4CEDDB005E77FA /* NetworkImage.swift */,
+				5C307AE52C4CF35A005E77FA /* NetworkImageViewModel.swift */,
+			);
+			path = NetworkImage;
+			sourceTree = "<group>";
+		};
 		5CF118232C4CC6A100DD324C = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +66,12 @@
 		5CF1182E2C4CC6A100DD324C /* swift-demos */ = {
 			isa = PBXGroup;
 			children = (
+				5C307AE02C4CE46F005E77FA /* NetworkImage */,
 				5CF1182F2C4CC6A100DD324C /* swift_demosApp.swift */,
 				5CF118312C4CC6A100DD324C /* ContentView.swift */,
 				5CF118332C4CC6A200DD324C /* Assets.xcassets */,
 				5CF118352C4CC6A200DD324C /* Preview Content */,
+				5C307AE12C4CE6D6005E77FA /* NetworkManager.swift */,
 			);
 			path = "swift-demos";
 			sourceTree = "<group>";
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C307AE22C4CE6D6005E77FA /* NetworkManager.swift in Sources */,
 				5CF118322C4CC6A100DD324C /* ContentView.swift in Sources */,
+				5C307AE42C4CEDDB005E77FA /* NetworkImage.swift in Sources */,
 				5CF118302C4CC6A100DD324C /* swift_demosApp.swift in Sources */,
+				5C307AE62C4CF35A005E77FA /* NetworkImageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
