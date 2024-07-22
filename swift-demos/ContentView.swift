@@ -9,29 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            NetworkImage(imageUrl: "https://picsum.photos/300/200?grayscale",placeHolder: Image(""))
-                .scaledToFill()
-                .ignoresSafeArea()
-            
-            VStack {
+        //for navigating between the pages
+        TabView {
+            ZStack{
+                //background image
+                NetworkImage(imageUrl: "https://picsum.photos/300/200?grayscale",placeHolder: Image(""))
+                    .scaledToFill()
+                    //.ignoresSafeArea()
                 
-                LazyHStack {
-                    NetworkImage(imageUrl: "https://picsum.photos/300/200?grayscale")
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 300,height: 200)
-                        .clipShape(.rect(cornerRadius: 25))
-                        .padding()
+                VStack {
+                    //image on the stack
+                    LazyHStack {
+                        NetworkImage(imageUrl: "https://picsum.photos/300/200?grayscale")
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 300,height: 200)
+                            .clipShape(.rect(cornerRadius: 25))
+                            .padding()
+                    }
+                    .frame(width: 300,height: 200)
+                    
+                    Text("Hello, world!")
+                    Text("This is Nyi")
+                    
+                    Text("Hi, This is message by Myo")
+                    Spacer()
                 }
-                .frame(width: 300,height: 200)
-                
-                Text("Hello, world!")
-                Text("This is Nyi")
-                
-                Text("Hi, This is message by Myo")
-                Spacer()
+                .padding()
             }
-            .padding()
+            .tabItem {
+                Label("Image", systemImage: "photo.stack")
+            }
+            
+            MapView()
+                .tabItem {
+                    Label("Location", systemImage: "location")
+                }
         }
     }
 }
