@@ -38,6 +38,7 @@ struct DefaultImageView: View {
         if let image = image?.resizable() {
             image
         }else{
+            //if the image is still in loading or unavailable, rainbow icon will be displayed
             placeholder ?? Image(systemName: "rainbow").resizable()
         }
         
