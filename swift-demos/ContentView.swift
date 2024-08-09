@@ -11,11 +11,18 @@ struct ContentView: View {
     var body: some View {
         //for navigating between the pages
         TabView {
+            
+            WeatherView()
+                .tabItem {
+                    Label("Weather", systemImage: "cloud.sun.rain")
+                }
+            
             ZStack{
+                
+
                 //background image
                 NetworkImage(imageUrl: "https://picsum.photos/300/200?grayscale",placeHolder: Image(""))
                     .scaledToFill()
-                    //.ignoresSafeArea()
                 
                 VStack {
                     //image on the stack
@@ -39,6 +46,9 @@ struct ContentView: View {
             .tabItem {
                 Label("Image", systemImage: "photo.stack")
             }
+            
+            
+            
             
             MapView()
                 .tabItem {

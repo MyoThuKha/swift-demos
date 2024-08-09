@@ -11,6 +11,16 @@
 		5C307AE22C4CE6D6005E77FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307AE12C4CE6D6005E77FA /* NetworkManager.swift */; };
 		5C307AE42C4CEDDB005E77FA /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307AE32C4CEDDB005E77FA /* NetworkImage.swift */; };
 		5C307AE62C4CF35A005E77FA /* NetworkImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C307AE52C4CF35A005E77FA /* NetworkImageViewModel.swift */; };
+		5C63FC4D2C5E1EE9000C0F94 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C63FC4C2C5E1EE9000C0F94 /* LoadingView.swift */; };
+		5C63FC4F2C5E1F5B000C0F94 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C63FC4E2C5E1F5B000C0F94 /* WeatherView.swift */; };
+		5C746A012C60FF730071E838 /* MyoMacAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C746A002C60FF730071E838 /* MyoMacAppApp.swift */; };
+		5C746A032C60FF730071E838 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C746A022C60FF730071E838 /* ContentView.swift */; };
+		5C746A052C60FF730071E838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C746A042C60FF730071E838 /* Assets.xcassets */; };
+		5C746A082C60FF730071E838 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C746A072C60FF730071E838 /* Preview Assets.xcassets */; };
+		5CABF23A2C64AC5F00AE3978 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CABF2392C64AC5F00AE3978 /* MainView.swift */; };
+		5CABF23C2C64AF2700AE3978 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CABF23B2C64AF2700AE3978 /* MenuView.swift */; };
+		5CB303F22C64B7490010EB45 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB303F12C64B7490010EB45 /* MainViewModel.swift */; };
+		5CB303F42C64BD3C0010EB45 /* ScreenshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB303F32C64BD3C0010EB45 /* ScreenshotService.swift */; };
 		5CF118302C4CC6A100DD324C /* swift_demosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF1182F2C4CC6A100DD324C /* swift_demosApp.swift */; };
 		5CF118322C4CC6A100DD324C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF118312C4CC6A100DD324C /* ContentView.swift */; };
 		5CF118342C4CC6A200DD324C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF118332C4CC6A200DD324C /* Assets.xcassets */; };
@@ -22,6 +32,18 @@
 		5C307AE12C4CE6D6005E77FA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5C307AE32C4CEDDB005E77FA /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
 		5C307AE52C4CF35A005E77FA /* NetworkImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImageViewModel.swift; sourceTree = "<group>"; };
+		5C63FC4C2C5E1EE9000C0F94 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5C63FC4E2C5E1F5B000C0F94 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		5C7469FE2C60FF730071E838 /* MyoMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyoMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C746A002C60FF730071E838 /* MyoMacAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyoMacAppApp.swift; sourceTree = "<group>"; };
+		5C746A022C60FF730071E838 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C746A042C60FF730071E838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C746A072C60FF730071E838 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C746A092C60FF730071E838 /* MyoMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyoMacApp.entitlements; sourceTree = "<group>"; };
+		5CABF2392C64AC5F00AE3978 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5CABF23B2C64AF2700AE3978 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5CB303F12C64B7490010EB45 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		5CB303F32C64BD3C0010EB45 /* ScreenshotService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotService.swift; sourceTree = "<group>"; };
 		5CF1182C2C4CC6A100DD324C /* swift-demos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-demos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF1182F2C4CC6A100DD324C /* swift_demosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_demosApp.swift; sourceTree = "<group>"; };
 		5CF118312C4CC6A100DD324C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C7469FB2C60FF730071E838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CF118292C4CC6A100DD324C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,10 +86,67 @@
 			path = NetworkImage;
 			sourceTree = "<group>";
 		};
+		5C63FC502C5E20EF000C0F94 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5C7469FF2C60FF730071E838 /* MyoMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				5C746A042C60FF730071E838 /* Assets.xcassets */,
+				5C746A092C60FF730071E838 /* MyoMacApp.entitlements */,
+				5C746A062C60FF730071E838 /* Preview Content */,
+				5C746A002C60FF730071E838 /* MyoMacAppApp.swift */,
+				5CB303F02C64B7140010EB45 /* ViewModels */,
+				5CB303EF2C64B6890010EB45 /* Views */,
+				5C746A022C60FF730071E838 /* ContentView.swift */,
+				5CABF23B2C64AF2700AE3978 /* MenuView.swift */,
+				5CB303F32C64BD3C0010EB45 /* ScreenshotService.swift */,
+			);
+			path = MyoMacApp;
+			sourceTree = "<group>";
+		};
+		5C746A062C60FF730071E838 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C746A072C60FF730071E838 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CB303EE2C64B6710010EB45 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				5CABF2392C64AC5F00AE3978 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		5CB303EF2C64B6890010EB45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CB303EE2C64B6710010EB45 /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CB303F02C64B7140010EB45 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5CB303F12C64B7490010EB45 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		5CF118232C4CC6A100DD324C = {
 			isa = PBXGroup;
 			children = (
+				5C63FC4E2C5E1F5B000C0F94 /* WeatherView.swift */,
 				5CF1182E2C4CC6A100DD324C /* swift-demos */,
+				5C7469FF2C60FF730071E838 /* MyoMacApp */,
 				5CF1182D2C4CC6A100DD324C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5CF1182C2C4CC6A100DD324C /* swift-demos.app */,
+				5C7469FE2C60FF730071E838 /* MyoMacApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +163,7 @@
 		5CF1182E2C4CC6A100DD324C /* swift-demos */ = {
 			isa = PBXGroup;
 			children = (
+				5C63FC502C5E20EF000C0F94 /* ViewModels */,
 				503B8B742C4DDB2200EAF8C7 /* MapView */,
 				5C307AE02C4CE46F005E77FA /* NetworkImage */,
 				5CF1182F2C4CC6A100DD324C /* swift_demosApp.swift */,
@@ -83,6 +171,7 @@
 				5CF118332C4CC6A200DD324C /* Assets.xcassets */,
 				5CF118352C4CC6A200DD324C /* Preview Content */,
 				5C307AE12C4CE6D6005E77FA /* NetworkManager.swift */,
+				5C63FC4C2C5E1EE9000C0F94 /* LoadingView.swift */,
 			);
 			path = "swift-demos";
 			sourceTree = "<group>";
@@ -98,6 +187,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5C7469FD2C60FF730071E838 /* MyoMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C746A0A2C60FF730071E838 /* Build configuration list for PBXNativeTarget "MyoMacApp" */;
+			buildPhases = (
+				5C7469FA2C60FF730071E838 /* Sources */,
+				5C7469FB2C60FF730071E838 /* Frameworks */,
+				5C7469FC2C60FF730071E838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyoMacApp;
+			productName = MyoMacApp;
+			productReference = 5C7469FE2C60FF730071E838 /* MyoMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		5CF1182B2C4CC6A100DD324C /* swift-demos */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CF1183A2C4CC6A200DD324C /* Build configuration list for PBXNativeTarget "swift-demos" */;
@@ -125,6 +231,9 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					5C7469FD2C60FF730071E838 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					5CF1182B2C4CC6A100DD324C = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -144,11 +253,21 @@
 			projectRoot = "";
 			targets = (
 				5CF1182B2C4CC6A100DD324C /* swift-demos */,
+				5C7469FD2C60FF730071E838 /* MyoMacApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5C7469FC2C60FF730071E838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C746A082C60FF730071E838 /* Preview Assets.xcassets in Resources */,
+				5C746A052C60FF730071E838 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CF1182A2C4CC6A100DD324C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +280,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C7469FA2C60FF730071E838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB303F22C64B7490010EB45 /* MainViewModel.swift in Sources */,
+				5CABF23A2C64AC5F00AE3978 /* MainView.swift in Sources */,
+				5CABF23C2C64AF2700AE3978 /* MenuView.swift in Sources */,
+				5C746A032C60FF730071E838 /* ContentView.swift in Sources */,
+				5C746A012C60FF730071E838 /* MyoMacAppApp.swift in Sources */,
+				5CB303F42C64BD3C0010EB45 /* ScreenshotService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CF118282C4CC6A100DD324C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,6 +302,8 @@
 				5CF118322C4CC6A100DD324C /* ContentView.swift in Sources */,
 				5C307AE42C4CEDDB005E77FA /* NetworkImage.swift in Sources */,
 				5CF118302C4CC6A100DD324C /* swift_demosApp.swift in Sources */,
+				5C63FC4D2C5E1EE9000C0F94 /* LoadingView.swift in Sources */,
+				5C63FC4F2C5E1F5B000C0F94 /* WeatherView.swift in Sources */,
 				5C307AE62C4CF35A005E77FA /* NetworkImageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +311,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		5C746A0B2C60FF730071E838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyoMacApp/MyoMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyoMacApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 97F835BL53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myothukha.MyoMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C746A0C2C60FF730071E838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyoMacApp/MyoMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyoMacApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 97F835BL53;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myothukha.MyoMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		5CF118382C4CC6A200DD324C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -361,6 +553,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5C746A0A2C60FF730071E838 /* Build configuration list for PBXNativeTarget "MyoMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C746A0B2C60FF730071E838 /* Debug */,
+				5C746A0C2C60FF730071E838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5CF118272C4CC6A100DD324C /* Build configuration list for PBXProject "swift-demos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

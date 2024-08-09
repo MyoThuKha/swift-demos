@@ -15,6 +15,18 @@ class NetworkManager {
     
     private let cache = NSCache<NSString,UIImage>()
     
+    
+    func get(fromUrlString url : String, completed: @escaping ()-> Void){
+        guard let url = URL(string: url) else{
+            return
+        }
+        
+        
+        URLSession.shared.dataTask(with: URLRequest(url: url)){data,response,error in
+        }
+        
+    }
+    
     /// Download an image from network
     /// - Parameters:
     ///   - imageUrl: string url of a network image
